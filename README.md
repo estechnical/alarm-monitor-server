@@ -3,10 +3,10 @@ Arduino based, Prometheus compatible metrics server for fire alarm panel.
 
 The project creates a Prometheus compatible metrics endpoint to allow timeseries data to be collected about the status of a fire alarm panel.
 
-  For more info see:
-    Prometheus: https://prometheus.io/
-    Alertmanager: https://prometheus.io/docs/alerting/alertmanager/
-    Grafana: https://grafana.com/
+For more info see:
+    - Prometheus: https://prometheus.io/
+    - Alertmanager: https://prometheus.io/docs/alerting/alertmanager/
+    - Grafana: https://grafana.com/
 
 To make use of this, open the AlarmMonitorServer.ino file with arduino IDE.
 
