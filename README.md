@@ -94,3 +94,15 @@ ALERT AlarmFault
   }
 
 ```
+
+
+# Other Possibilities
+
+Why not take advantage of Prometheus & Grafana to provide pretty graphs for previoulsy dumb devices?
+
+This could be easily repurposed for:
+
+- UPS monitoring
+- Environmental monitoring
+- Fish tank monitoring
+- etc...
