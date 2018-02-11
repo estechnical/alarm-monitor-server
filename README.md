@@ -13,7 +13,7 @@ To make use of this, open the AlarmMonitorServer.ino file with arduino IDE.
 Edit the static IP address, choosing an available IP address suitable for your local network that is outside of DHCP allocated address space.
 
 The hardware required depends on the alarm box itself. My alarm has relays for fault and alarm condition with NO/NC contacts available.
-The resistor divider of 10k and 4.7k provides a roughly 15v range mapped onto the 0-5v range of analog input zero, so it suitable for monitoring a 12v SLA battery.
+The resistor divider of 10k and 4.7k provides a roughly 15v range mapped onto the 0-5v range of analog input zero, so is suitable for monitoring a 12v SLA battery.
 
 Digital pins 6 and 7 are used to monitor the Fault and Alarm contacts, with the inbuilt pull-up resistors switched on. Use the NC switch contacts.
 
